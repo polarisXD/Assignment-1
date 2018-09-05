@@ -18,14 +18,6 @@ Read the instructions carefully for each problem listed below. For each of the p
 
 In this repository, you will find a directory called `Tests`. It contains a test script for each problem. I will use these scripts to test your code. You can use them to test your code as well. You will also find a directory called `ExpectedOutput`. If your code is working properly for a given problem, you should get this output when the test script is executed for that problem.
 
-As you complete the problems, *commit* your answers to the master branch on GitHub. You can commit your code using the following three commands (replace `<message>` with an actual message):
-
-```
-git add --all
-git commit -m "<message>"
-git push origin master
-```
-
 ### Problem Descriptions
 
 *Please let me know if you see any errors in these problem descriptions or in the expected outputs. Thanks!*
@@ -89,4 +81,12 @@ print(bioinformatics + is + for + cool + people)
 
 ### Submitting the assignment
 
-After committing your solutions to your forked repository, go to Learning Suite and submit the URL for your repository. I will download and test your code.
+After you complete the problems, *commit* your answers to your forked repository on GitHub. You can commit your code using the following three commands (replace `<message>` with an actual message):
+
+```
+git add --all
+git commit -m "<message>"
+git push origin master
+```
+
+After committing your solutions, go to Learning Suite and submit the URL for your repository. I will download and test your code.
