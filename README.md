@@ -2,9 +2,11 @@
 
 ### Instructions
 
-The purpose of this assignment is to help you become more familiar with basic R coding. To get started, you should "fork" this GitHub repository. First log in to GitHub using your personal account. Then click on the "Fork" button at the top-right of this page. After doing so, you will have your own copy of this repository.
+The purpose of this assignment is to help you become more familiar with basic R coding. To get started, please create a [GitHub.com](https://www.github.com) account if you have not already done so. Then apply for the [academic research discount](https://help.github.com/articles/applying-for-an-academic-research-discount/) so you can create *private* GitHub repositories.
 
-Next make sure you have the `git` software [installed](https://git-scm.com/downloads). Then on GitHub, copy the URL of **your** repository (see the `Clone or download` button on the top right of the page). At the command line, enter the following command (replacing `<clone URL>` with the actual URL):
+After doing this, please "fork" this GitHub repository. Click on the "Fork" button at the top-right of this page. After doing so, you will have your own copy of this repository. Go into the settings of your repository and **make sure it is listed as "private"**.
+
+Next make sure you have the `git` software [installed](https://git-scm.com/downloads) on your personal computer. Then on GitHub, copy the URL of **your** repository (see the `Clone or download` button on the top right of the page). At the command line, enter the following command (replacing `<clone URL>` with the actual URL):
 
 ```
 git clone <clone URL>
@@ -23,8 +25,6 @@ git add --all
 git commit -m "<message>"
 git push origin master
 ```
-
-After the grading deadline (see Learning Suite), I will clone your repository and test your code.
 
 ### Problem Descriptions
 
@@ -86,3 +86,7 @@ print(bioinformatics + is + for + cool + people)
 9. Please write a function called `shouldIEat` that tells you whether you should eat, depending on how hungry you are. This function should accept a single argument that is a number between 1 and 10. If your hunger level is greater than or equal to 8 and less than or equal to 10, the function should return `Go eat!` If your hunger level is greater than or equal to 3 and less than 8, it should return `Don't eat!` If your hunger level is greater than or equal to 1 and less than 3, it should return `Take a nap!` If your hunger level is greater than 10 or less than 1, it should return `Invalid input.`
 
 10. Suppose you are working in a research laboratory with E. coli (bacteria) that grow in culture. As you keep the bacteria in proper growth conditions, they multiply at a rate of 20% each day. Suppose that other scientists in the same laboratory are working with other types of bacteria, and these grow at different rates than the E. coli. Please write a function that allows researchers to predict the size of their bacterial population after 3 days. This function should be called `predictPopulationGrowth` and should accept three arguments: 1) the name of the bacterial species, 2) the number of bacteria at the beginning of the experiment, and 3) the growth rate per day. This function should calculate the expected growth after 3 days. This number should be rounded to the nearest whole number and converted to an integer value. Your function should return a statement such as: `After 3 days, there will be 16345 E. coli`.
+
+### Submitting the assignment
+
+After committing your solutions to your forked repository, go to Learning Suite and submit the URL for your repository. I will download and test your code.
