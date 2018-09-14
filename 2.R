@@ -2,12 +2,12 @@ int = 2
 print(int)
 num = 3.0
 print(num)
-class(int)
-class(num)
+print(class(int))
+print(class(num))
 sum = int + num
 print(sum)
-class(sum)
+print(class(sum))
 int = as.integer(int)
-class(int)
+print(class(int))
 sum = int + num
-class(sum)
+print(class(sum))

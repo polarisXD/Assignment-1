@@ -1,6 +1,6 @@
 shouldIEat = function(hunger){
   if (hunger > 10 || hunger < 1){
-    return("Invalid input")
+    return("Invalid input.")
   }else if (hunger >= 8){
     return("Go eat!")
   }else if (hunger < 3){
